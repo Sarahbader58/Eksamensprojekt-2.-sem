@@ -11,6 +11,7 @@ input {
     border: 2px solid #E4F3F1;
     background-color: #00454E;
     padding: 5px;
+    color: #E4F3F1;
 }
 
 button {
@@ -18,10 +19,19 @@ button {
     background-color: #00454E
 }
 
+
 .logo {
     width: 50px;
     height: 39.38px;
     left: 13px;
+    top: 21px;
+    position: absolute;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    left: 331px;
     top: 21px;
     position: absolute;
 }
@@ -72,4 +82,69 @@ button {
     top: 450px;
     position: absolute;
     color: #E4F3F1;
+}
+
+.filters {
+    color: #E4F3F1;
+    font-size: 24px;
+    font-family: Futura;
+    font-weight: 700;
+    width: 207px;
+    height: 43px;
+    left: 13px;
+    top: 102px;
+    position: absolute;
+
+}
+
+.freedates {
+    color: #E4F3F1;
+font-size: 16px;
+font-family: Gabarito;
+font-weight: 700;
+}
+
+.occupieddates {
+    color: #E4F3F1;
+font-size: 16px;
+font-family: Gabarito;
+font-weight: 700;
+}
+
+.supervisor {
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 500;
+    width: 126px;
+    height: 31px;
+    left: 13px;
+    top: 165px;
+    position: absolute;
+}
+
+.michaela {
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 500;
+    width: 87px;
+    height: 32px;
+    left: 36px;
+    top: 210px;
+    position: absolute;
+}
+
+.michaelb {
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 500;
+}
+
+.madsh {
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 500;
 }
