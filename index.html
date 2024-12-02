@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookingsystem</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="jm.js" defer></script>
+    <script src="sb.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <img src="Billeder/UCLLogo.png" alt="UCL" class="logo"/>
+    </header>
+    <div>
+        <div class="login">
+            <p>Log ind</p>
+        </div>
+        <div>
+            <input type="text" class="username" placeholder="Brugernavn" required/>
+        </div>
+            <input type="password" class="password" placeholder="Adgangskode" required/>
+        </div>
+        <div>
+            <button class="submitBtn">Log ind</button>
+                <p id="error-msg" style="color: red; display: none">
+                Forkert brugernavn eller adgangskode
+                </p>
+        </div>
 </body>
 </html>

@@ -1,0 +1,75 @@
+* {
+    background-color: #00454E;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #E4F3F1;
+}
+
+input {
+    border: 2px solid #E4F3F1;
+    background-color: #00454E;
+    padding: 5px;
+}
+
+button {
+    border: 2px solid #E4F3F1;
+    background-color: #00454E
+}
+
+.logo {
+    width: 50px;
+    height: 39.38px;
+    left: 13px;
+    top: 21px;
+    position: absolute;
+}
+
+.login {
+    font-size: 24px;
+    font-family: futura;
+    font-weight: 700;
+    width: 104px;
+    height: 32px;
+    left: 144px;
+    top: 225px;
+    position: absolute;
+    color: #E4F3F1;
+}
+
+.username {
+    font-size: 15px;
+    font-family: Gabarito;
+    font-weight: 400;
+    width: 247px;
+    height: 24px;
+    left: 63px;
+    top: 318px;
+    position: absolute;
+    background: #00454E;
+}
+
+.password {
+    font-size: 15px;
+    font-family: Gabarito;
+    font-weight: 400;
+    width: 247px;
+    height: 24px;
+    left: 63px;
+    top: 370px;
+    position: absolute;
+    background: #00454E;
+}
+
+.submitBtn {
+    font-size: 14px;
+    font-family: Futura;
+    font-weight: 700;
+    width: 70px;
+    height: 24px;
+    left: 160px;
+    top: 450px;
+    position: absolute;
+    color: #E4F3F1;
+}
