@@ -1,5 +1,6 @@
 * {
     background-color: #00454E;
+    height: 80px;
 }
 
 input:focus {
@@ -16,7 +17,8 @@ input {
 
 button {
     border: 2px solid #E4F3F1;
-    background-color: #00454E
+    background-color: #00454E;
+    padding: 5px;
 }
 
 
@@ -34,6 +36,44 @@ button {
     left: 331px;
     top: 21px;
     position: absolute;
+}
+
+.dates {
+    width: 396px;
+    height: 288px;
+    left: 0px;
+    top: 475px;
+    position: absolute;
+}
+
+.times {
+    width: 362px;
+    height: 391px;
+    left: 13px;
+    top: 308px;
+    position: absolute;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    left: 13px;
+    top: 308px;
+    position: absolute;
+}
+
+.book {
+    width: 52px;
+    height: 24px;
+    left: 178px;
+    top: 717px;
+    position: absolute;
+    font-family: gabbarito;
+    font-size: 20px;
+    font-weight: 700;
+    color: #00454E;
+    padding: auto;
+    background-color: #FAE353;
 }
 
 .login {
@@ -94,57 +134,151 @@ button {
     left: 13px;
     top: 102px;
     position: absolute;
-
 }
 
 .freedates {
     color: #E4F3F1;
-font-size: 16px;
-font-family: Gabarito;
-font-weight: 700;
+    font-size: 16px;
+    font-family: Gabarito;
+    font-weight: 700;
+    width: 91px;
+    height: 24px;
+    left: 75px;
+    top: 780px;
+    position: absolute;
 }
 
 .occupieddates {
     color: #E4F3F1;
-font-size: 16px;
-font-family: Gabarito;
-font-weight: 700;
-}
-
-.supervisor {
+    font-size: 16px;
+    font-family: Gabarito;
+    font-weight: 700;
     color: #E4F3F1;
     font-size: 16px;
+    font-family: Gabarito;
+    font-weight: 700;
+    width: 117px;
+    height: 24px;
+    left: 233px;
+    top: 780px;
+    position: absolute;
+}
+
+.occupieddatesblock {
+    width: 24px;
+    height: 24px;
+    left: 199px;
+    top: 791px;
+    position: absolute;
+    background-color: #E4F3F1;
+}
+
+.freedatesblock {
+    width: 24px;
+    height: 24px;
+    left: 42px;
+    top: 791px;
+    position: absolute;
+    background-color: #00454E;
+    border: 1px #E4F3F1 solid;
+
+}
+
+.profil {
+    color: #E4F3F1;
+    font-size: 24px;
     font-family: Futura;
-    font-weight: 500;
-    width: 126px;
-    height: 31px;
+    font-weight: 700;
+    width: 207px;
+    height: 43px;
     left: 13px;
-    top: 165px;
+    top: 102px;
     position: absolute;
 }
 
-.michaela {
-    color: #E4F3F1;
-    font-size: 16px;
-    font-family: Futura;
-    font-weight: 500;
-    width: 87px;
-    height: 32px;
-    left: 36px;
-    top: 210px;
+.mydates {
+    width: 247px;
+    height: 24px;
+    left: 52px;
+    top: 289px;
     position: absolute;
-}
-
-.michaelb {
     color: #E4F3F1;
     font-size: 16px;
-    font-family: Futura;
-    font-weight: 500;
+    font-family: futura;
+    font-weight: 700;
 }
 
-.madsh {
+
+.profiledate {
+    width: 52px;
+    height: 23px;
+    left: 84px;
+    top: 337px;
+    position: absolute;
     color: #E4F3F1;
     font-size: 16px;
-    font-family: Futura;
-    font-weight: 500;
+    font-family: futura;
+    font-weight: 700;
+}
+
+.profiletime {
+    width: 52px;
+    height: 23px;
+    left: 175px;
+    top: 337px;
+    position: absolute;
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: futura;
+    font-weight: 700;
+}
+
+.canceldate {
+    width: 52px;
+    height: 23px;
+    left: 273px;
+    top: 337px;
+    position: absolute;
+    color: #00454E;
+    font-size: 16px;
+    font-family: futura;
+    font-weight: 700;
+    background-color: #E4F3F1;
+}
+
+.olddates {
+    width: 247px;
+    height: 24px;
+    left: 52px;
+    top: 402px;
+    position: absolute;
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: futura;
+    font-weight: 700;
+}
+
+.canceleddates {
+    width: 247px;
+    height: 24px;
+    left: 52px;
+    top: 515px;
+    position: absolute;
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: futura;
+    font-weight: 700;
+}
+
+.logout {
+    width: 52px;
+    height: 23px;
+    left: 175px;
+    top: 620px;
+    position: absolute;
+    color: #00454E;
+    font-size: 16px;
+    font-family: futura;
+    font-weight: 700;
+    background-color: #E4F3F1;
 }
