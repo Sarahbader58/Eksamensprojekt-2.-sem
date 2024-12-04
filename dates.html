@@ -12,10 +12,36 @@
         <img src="Billeder/UCLLogo.png" alt="UCL" class="logo"/>
         <img src="Billeder/profil.png" alt="profil" class="profile" onclick="location.href='profile.html';"/>
     </header>
-    <div class="filters">
-        <p>Filtrér søgning</p>
-    </div>
-    <img src="Billeder/datoer.png" alt="datoer med ledige og optaget tider" class="dates" onclick="location.href='time.html';">
+
+        <h1>Filtrér søgning</h1>
+        <div class="filter-group">
+          <p>*Supervisor:</p>
+          <button class="filter-option" data-type="supervisor" data-value="Michael A.">Michael A.</button>
+          <button class="filter-option" data-type="supervisor" data-value="Michael B.">Michael B.</button>
+          <button class="filter-option" data-type="supervisor" data-value="Mads H.">Mads H.</button>
+        </div>
+        <div class="filter-group">
+          <p>*Maskiner:</p>
+          <button class="filter-option" data-type="machine" data-value="3D-print">3D-print</button>
+          <button class="filter-option" data-type="machine" data-value="Laserskærer">Laserskærer</button>
+          <button class="filter-option" data-type="machine" data-value="T-shirtprint">T-shirtprint</button>
+        </div>
+        <div class="filter-group">
+          <p>Kurser (valgfrit):</p>
+          <button class="filter-option" data-type="course" data-value="3D-print">3D-print</button>
+          <button class="filter-option" data-type="course" data-value="Laserskærer">Laserskærer</button>
+          <button class="filter-option" data-type="course" data-value="T-shirtprint">T-shirtprint</button>
+        </div>
+        <button id="submit">Søg</button>
+      </div>
+      
+      <div id="result-container" style="display: none;">
+        <h2>Tilgængelige tider</h2>
+        <img id="calendar" src="" alt="Kalender">
+      </div>
+      
+
+
     <div class="freedates">
         <p>Ledige tider</p>
     </div>

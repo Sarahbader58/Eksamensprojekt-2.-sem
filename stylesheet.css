@@ -295,3 +295,82 @@ button {
     line-height: 0px;
     padding: 0px;
 }
+
+/* her starter filtrerings CSS */
+
+body {
+    font-family: futura;
+    background-color: #083d49;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .profile-icon {
+    height: 30px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter-group {
+    margin-bottom: 100px;
+
+  }
+  
+  .filter-group p {
+    font-size: 16px;
+    margin-bottom: -40px;
+  }
+  
+  .filter-option {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .filter-option:hover, .filter-option.active {
+    background-color: #ffd700;
+    color: #000;
+  }
+  
+  #submit {
+    background-color: #006d7e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: -50px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    align-self: center;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  #submit:hover {
+    background-color: #008c9f;
+  }
+  
