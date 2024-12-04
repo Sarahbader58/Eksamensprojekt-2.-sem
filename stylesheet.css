@@ -312,14 +312,6 @@ body {
     padding: 10px 20px;
   }
   
-  .logo {
-    height: 40px;
-  }
-  
-  .profile-icon {
-    height: 30px;
-  }
-  
   h1 {
     font-size: 20px;
     margin-bottom: 20px;
@@ -373,4 +365,3 @@ body {
   #submit:hover {
     background-color: #008c9f;
   }
-  
