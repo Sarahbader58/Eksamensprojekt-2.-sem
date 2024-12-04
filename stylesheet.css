@@ -365,3 +365,12 @@ body {
   #submit:hover {
     background-color: #008c9f;
   }
+
+  #result-container {
+    display: none;
+  }
+
+  .filter-option.selected {
+    background-color: #ffd700;
+    color: #00454E;
+  }
