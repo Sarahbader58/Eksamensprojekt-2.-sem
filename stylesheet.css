@@ -90,7 +90,7 @@ button {
 
 .username {
     font-size: 15px;
-    font-family: Gabarito;
+    font-family: Futura;
     font-weight: 400;
     width: 247px;
     height: 24px;
@@ -102,7 +102,7 @@ button {
 
 .password {
     font-size: 15px;
-    font-family: Gabarito;
+    font-family: Futura;
     font-weight: 400;
     width: 247px;
     height: 24px;
@@ -139,7 +139,7 @@ button {
 .freedates {
     color: #E4F3F1;
     font-size: 16px;
-    font-family: Gabarito;
+    font-family: Futura;
     font-weight: 700;
     width: 91px;
     height: 24px;
@@ -151,11 +151,11 @@ button {
 .occupieddates {
     color: #E4F3F1;
     font-size: 16px;
-    font-family: Gabarito;
+    font-family: Futura;
     font-weight: 700;
     color: #E4F3F1;
     font-size: 16px;
-    font-family: Gabarito;
+    font-family: Futura;
     font-weight: 700;
     width: 117px;
     height: 24px;
