@@ -68,7 +68,7 @@ button {
     left: 178px;
     top: 717px;
     position: absolute;
-    font-family: gabarito;
+    font-family: futura;
     font-size: 20px;
     font-weight: 700;
     color: #00454E;
@@ -217,7 +217,7 @@ button {
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
-    font-family: gabarito;
+    font-family: Futura;
     font-weight: 700;
 }
 
@@ -229,7 +229,7 @@ button {
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
-    font-family: gabarito;
+    font-family: Futura;
     font-weight: 700;
 }
 
@@ -241,7 +241,7 @@ button {
     position: absolute;
     color: #00454E;
     font-size: 16px;
-    font-family: gabarito;
+    font-family: Futura;
     font-weight: 700;
     background-color: #E4F3F1;
 }
