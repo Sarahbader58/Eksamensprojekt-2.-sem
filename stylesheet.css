@@ -19,6 +19,7 @@ button {
     border: 2px solid #E4F3F1;
     background-color: #00454E;
     padding: 5px;
+    height: 31px;
 }
 
 
@@ -71,6 +72,8 @@ button {
     font-family: futura;
     font-size: 15px;
     font-weight: 700;
+    line-height: 0px;
+    padding: 0px;
     color: #00454E;
     padding: auto;
     background-color: #FAE353;
@@ -116,6 +119,8 @@ button {
     font-size: 14px;
     font-family: Futura;
     font-weight: 700;
+    line-height: 0px;
+    padding: 0px;
     width: 70px;
     height: 24px;
     left: 160px;
@@ -219,6 +224,8 @@ button {
     font-size: 16px;
     font-family: Futura;
     font-weight: 700;
+    line-height: 0px;
+    padding: 0px;
 }
 
 .profiletime {
@@ -231,6 +238,8 @@ button {
     font-size: 16px;
     font-family: Futura;
     font-weight: 700;
+    line-height: 0px;
+    padding: 0px;
 }
 
 .canceldate {
@@ -244,6 +253,8 @@ button {
     font-family: Futura;
     font-weight: 700;
     background-color: #E4F3F1;
+    line-height: 0px;
+    padding: 0px;
 }
 
 .olddates {
@@ -281,4 +292,6 @@ button {
     font-family: futura;
     font-weight: 700;
     background-color: #E4F3F1;
+    line-height: 0px;
+    padding: 0px;
 }
