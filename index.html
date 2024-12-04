@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookingsystem</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="jm.js" defer></script>
 </head>
 <body>
     <header>
@@ -15,12 +16,12 @@
             <p>Log ind</p>
         </div>
         <div>
-            <input type="text" class="username" placeholder="Brugernavn" required/>
+            <input type="text" class="username" id="username" placeholder="Brugernavn" required/>
         </div>
-            <input type="password" class="password" placeholder="Adgangskode" required/>
+            <input type="password" class="password" id="password" placeholder="Adgangskode" required/>
         </div>
         <div>
-            <button onclick="location.href='dates.html';" class="submitBtn">Log ind</button>
+            <button class="submitBtn" id="submitBtn">Log ind</button>
                 <p id="error-msg" style="color: red; display: none">
                 Forkert brugernavn eller adgangskode
                 </p>
