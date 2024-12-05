@@ -139,6 +139,7 @@ button {
     left: 75px;
     top: 780px;
     position: absolute;
+    margin-top: 10px;
 }
 
 .occupieddates {
@@ -155,6 +156,7 @@ button {
     left: 233px;
     top: 780px;
     position: absolute;
+    margin-top: 10px;
 }
 
 .occupieddatesblock {
@@ -164,6 +166,7 @@ button {
     top: 791px;
     position: absolute;
     background-color: #E4F3F1;
+    margin-top: 10px;
 }
 
 .freedatesblock {
@@ -174,6 +177,7 @@ button {
     position: absolute;
     background-color: #00454E;
     border: 1px #E4F3F1 solid;
+    margin-top: 10px;
 
 }
 
@@ -291,25 +295,29 @@ body {
     font-family: futura;
     background-color: #083d49;
     color: #fff;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
   }
+
   
   header {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+
   }
   
   h1 {
     font-size: 20px;
-    margin-bottom: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   
   .filter-group {
-    margin-bottom: 100px;
+    margin-top: 20px;
 
   }
   
@@ -328,12 +336,11 @@ body {
     height: 50px;
     margin-bottom: 20px;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: border-color 0.3s ease;
   }
   
-  .filter-option:hover, .filter-option.active {
-    background-color: #ffd700;
-    color: #000;
+ .filter-option.active {
+    border-color: #ffd700;
   }
   
   #submit {
@@ -363,3 +370,34 @@ body {
     background-color: #ffd700;
     color: #00454E;
   }
+
+.filter-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;            
+    font-weight: bold;             
+    color: #fff;                  
+    margin-bottom: 10px;             
+    margin-top: 0;                   
+}
+
+.filter-group {
+    margin-bottom: 80px; 
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+#submit {
+    font-size: 16px;     
+    font-weight: 600;
+}
+
+#filter-system {
+    color: #fff; /* Hvid tekstfarve */
+    text-align: center; /* Centrerer tekst */
+}

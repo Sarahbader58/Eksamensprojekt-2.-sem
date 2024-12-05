@@ -12,31 +12,40 @@
         <img src="Billeder/UCLLogo.png" alt="UCL" class="logo"/>
         <img src="Billeder/profile-site.png" alt="profil" class="profile" onclick="location.href='profile.html';"/>
     </header>
-        <h1>Filtrér søgning</h1>
-        <p>*Supervisor:</p>
-        <button class="filter-option" data-type="supervisor" data-value="Michael A.">Michael A.</button>
-        <button class="filter-option" data-type="supervisor" data-value="Michael B.">Michael B.</button>
-        <button class="filter-option" data-type="supervisor" data-value="Mads H.">Mads H.</button>
-       
-        <p>*Maskiner:</p>
-        <button class="filter-option" data-type="machine" data-value="3D-print">3D-print</button>
-        <button class="filter-option" data-type="machine" data-value="Laserskærer">Laserskærer</button>
-        <button class="filter-option" data-type="machine" data-value="T-shirtprint">T-shirtprint</button>
-       
-        <p>Kurser (valgfrit):</p>
-        <button class="filter-option" data-type="course" data-value="3D-print">3D-print</button>
-        <button class="filter-option" data-type="course" data-value="Laserskærer">Laserskærer</button>
-        <button class="filter-option" data-type="course" data-value="T-shirtprint">T-shirtprint</button>
+   
+    <h1>Filtrér søgning</h1>
 
+    <div id="filter-system">
+    <div class="filter-group">
+        <p class="filter-title">*Supervisor:</p>
+        <button class="filter-option" data-type="supervisor" data-value="michael-a">Michael A.</button>
+        <button class="filter-option" data-type="supervisor" data-value="michael-b">Michael B.</button>
+        <button class="filter-option" data-type="supervisor" data-value="mads-h">Mads H.</button>
+    </div>
+    
+    <div class="filter-group">
+        <p class="filter-title">*Maskiner:</p>
+        <button class="filter-option" data-type="machine" data-value="3d-print">3D-print</button>
+        <button class="filter-option" data-type="machine" data-value="laser-cutter">Laserskærer</button>
+        <button class="filter-option" data-type="machine" data-value="tshirt-printer">T-shirtprint</button>
+    </div>
+    
+    <div class="filter-group">
+        <p class="filter-title">Kurser (valgfrit):</p>
+        <button class="filter-option" data-type="course" data-value="3d-print">3D-print</button>
+        <button class="filter-option" data-type="course" data-value="laser-cutter">Laserskærer</button>
+        <button class="filter-option" data-type="course" data-value="tshirt-printer">T-shirtprint</button>
+    </div>
+    
+    <div class="button-container">
         <button id="submit">Søg</button>
-
+    </div>
       
       <div id="result-container" style="display: none;">
         <h2>Tilgængelige tider</h2>
         <img id="calendar" src="" alt="Kalender">
       </div>
       
-
     <div class="freedates">
         <p>Ledige tider</p>
     </div>
@@ -45,5 +54,6 @@
     </div>
     <div class="occupieddatesblock"></div>
     <div class="freedatesblock"></div>
+</div> 
 </body>
 </html>
