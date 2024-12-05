@@ -1,0 +1,253 @@
+* {
+    background-color: #00454E;
+    height: 80px;
+}
+
+button {
+    border: 2px solid #E4F3F1;
+    background-color: #00454E;
+    padding: 5px;
+}
+
+
+.logo {
+    width: 50px;
+    height: 39.38px;
+    left: 13px;
+    top: 21px;
+    position: absolute;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    left: 331px;
+    top: 21px;
+    position: absolute;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    left: 13px;
+    top: 308px;
+    position: absolute;
+}
+
+.book {
+    width: 80px;
+    height: 40px;
+    left: 155px;
+    top: 550px;
+    position: absolute;
+    font-family: futura;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0px;
+    padding: 0px;
+    color: #00454E;
+    padding: auto;
+    background-color: #FAE353;
+}
+
+.filters {
+    color: #E4F3F1;
+    font-size: 24px;
+    font-family: Futura;
+    font-weight: 700;
+    width: 207px;
+    height: 43px;
+    left: 13px;
+    top: 102px;
+    position: absolute;
+}
+
+.freedates {
+    color: #E4F3F1;
+    font-size: 14px;
+    font-family: Futura;
+    font-weight: 700;
+    width: 91px;
+    height: 24px;
+    left: 75px;
+    top: 600px;
+    position: absolute;
+}
+
+.occupieddates {
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 700;
+    color: #E4F3F1;
+    font-size: 14px;
+    font-family: Futura;
+    font-weight: 700;
+    width: 117px;
+    height: 24px;
+    left: 233px;
+    top: 600px;
+    position: absolute;
+}
+
+.occupieddatesblock {
+    width: 24px;
+    height: 24px;
+    left: 199px;
+    top: 610px;
+    position: absolute;
+    background-color: #E4F3F1;
+}
+
+.freedatesblock {
+    width: 24px;
+    height: 24px;
+    left: 42px;
+    top: 610px;
+    position: absolute;
+    background-color: #00454E;
+    border: 1px #E4F3F1 solid;
+
+}
+
+.booktext {
+    color: #E4F3F1;
+    font-size: 24px;
+    font-family: Futura;
+    font-weight: 700;
+    width: 207px;
+    height: 43px;
+    left: 50px;
+    top: 290px;
+    position: absolute;
+}
+
+.eight {
+    width: 80px;
+    height: 40px;
+    left: 60px;
+    top: 360px;
+    position: absolute;
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 700;
+    line-height: 0px;
+    padding: 0px;
+}
+
+.nine {
+    width: 80px;
+    height: 40px;
+    left: 155px;
+    top: 360px;
+    position: absolute;
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 700;
+    line-height: 0px;
+    padding: 0px;
+}
+
+.ten {
+    width: 80px;
+    height: 40px;
+    left: 250px;
+    top: 360px;
+    position: absolute;
+    color: #00454E;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 700;
+    background-color: #E4F3F1;
+    line-height: 0px;
+    padding: 0px;
+}
+
+.eleven {
+    width: 80px;
+    height: 40px;
+    left: 60px;
+    top: 420px;
+    position: absolute;
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 700;
+    line-height: 0px;
+    padding: 0px;
+}
+
+.twelve {
+    width: 80px;
+    height: 40px;
+    left: 155px;
+    top: 420px;
+    position: absolute;
+    color: #00454E;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 700;
+    background-color: #E4F3F1;
+    line-height: 0px;
+    padding: 0px;
+}
+
+.thirteen {
+    width: 80px;
+    height: 40px;
+    left: 250px;
+    top: 420px;
+    position: absolute;
+    color: #00454E;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 700;
+    background-color: #E4F3F1;
+    line-height: 0px;
+    padding: 0px;
+}
+
+.fourteen {
+    width: 80px;
+    height: 40px;
+    left: 60px;
+    top: 480px;
+    position: absolute;
+    color: #00454E;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 700;
+    background-color: #E4F3F1;
+    line-height: 0px;
+    padding: 0px;
+}
+
+.fifteen {
+    width: 80px;
+    height: 40px;
+    left: 155px;
+    top: 480px;
+    position: absolute;
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 700;
+    line-height: 0px;
+    padding: 0px;
+}
+
+.sixteen {
+    width: 80px;
+    height: 40px;
+    left: 250px;
+    top: 480px;
+    position: absolute;
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 700;
+    line-height: 0px;
+    padding: 0px;
+}

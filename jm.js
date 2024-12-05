@@ -5,7 +5,7 @@ let users = [
 ];
 
 let submitBtn = document.getElementById("submitBtn");
-let errorMsg = document.getElementById("error-msg");
+let errorMsg = document.getElementById("errorMsg");
 
 submitBtn.onclick = function() {
     let username = document.getElementById("username").value;

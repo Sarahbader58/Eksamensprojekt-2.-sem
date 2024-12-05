@@ -47,36 +47,12 @@ button {
     position: absolute;
 }
 
-.times {
-    width: 362px;
-    height: 391px;
-    left: 13px;
-    top: 308px;
-    position: absolute;
-}
-
 .arrow {
     width: 40px;
     height: 40px;
     left: 13px;
-    top: 308px;
+    top: 278px;
     position: absolute;
-}
-
-.book {
-    width: 52px;
-    height: 24px;
-    left: 178px;
-    top: 717px;
-    position: absolute;
-    font-family: futura;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 0px;
-    padding: 0px;
-    color: #00454E;
-    padding: auto;
-    background-color: #FAE353;
 }
 
 .login {
@@ -116,17 +92,29 @@ button {
 }
 
 .submitBtn {
-    font-size: 14px;
+    font-size: 16px;
     font-family: Futura;
     font-weight: 700;
     line-height: 0px;
     padding: 0px;
-    width: 70px;
-    height: 24px;
-    left: 160px;
+    width: 80px;
+    height: 40px;
+    left: 155px;
     top: 450px;
     position: absolute;
     color: #E4F3F1;
+}
+
+.error-msg {
+    color: red;
+    font-family: futura;
+    font-size: 16px;
+    position: absolute;
+    font-weight: 700;
+    left: 63px;
+    top: 415px;
+    background: fixed;
+    pointer-events: none;
 }
 
 .filters {
@@ -189,6 +177,7 @@ button {
 
 }
 
+
 .profil {
     color: #E4F3F1;
     font-size: 24px;
@@ -196,7 +185,7 @@ button {
     font-weight: 700;
     width: 207px;
     height: 43px;
-    left: 13px;
+    left: 52px;
     top: 102px;
     position: absolute;
 }
@@ -215,9 +204,9 @@ button {
 
 
 .profiledate {
-    width: 52px;
-    height: 23px;
-    left: 84px;
+    width: 80px;
+    height: 40px;
+    left: 60px;
     top: 337px;
     position: absolute;
     color: #E4F3F1;
@@ -229,9 +218,9 @@ button {
 }
 
 .profiletime {
-    width: 52px;
-    height: 23px;
-    left: 175px;
+    width: 80px;
+    height: 40px;
+    left: 155px;
     top: 337px;
     position: absolute;
     color: #E4F3F1;
@@ -243,9 +232,9 @@ button {
 }
 
 .canceldate {
-    width: 52px;
-    height: 23px;
-    left: 273px;
+    width: 80px;
+    height: 40px;
+    left: 250px;
     top: 337px;
     position: absolute;
     color: #00454E;
@@ -282,9 +271,9 @@ button {
 }
 
 .logout {
-    width: 52px;
-    height: 23px;
-    left: 175px;
+    width: 80px;
+    height: 40px;
+    left: 155px;
     top: 620px;
     position: absolute;
     color: #00454E;
