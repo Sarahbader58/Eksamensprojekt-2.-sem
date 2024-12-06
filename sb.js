@@ -39,8 +39,3 @@ submitButton.addEventListener('click', () => {
         `;
     }
 });
-
-  
-  
-  
-  

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalender</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <img src="Billeder/UCLLogo.png" alt="UCL" class="logo"/>
+        <img src="Billeder/profile-site.png" alt="profil" class="profile" onclick="location.href='profile.html';"/>
+    </header>
+    <div id="calendar-container">
+        <h1>Tilgængelige tider</h1>
+        
+        <p>Man Tir Ons Tor Fre Lør Søn</p>
+        
+        <div id="calendar">
+          <div class="calendar-day available">3.</div>
+          <div class="calendar-day available">4.</div>
+          <div class="calendar-day occupied">5.</div>
+          <div class="calendar-day occupied">6.</div>
+          <div class="calendar-day available">7.</div>
+          <div class="calendar-day occupied">8.</div>
+          <div class="calendar-day available">9.</div>
+        </div>
+        <div id="calendar">
+            <div class="calendar-day occupied">10.</div>
+            <div class="calendar-day available">11.</div>
+            <div class="calendar-day available">12.</div>
+            <div class="calendar-day occupied">13.</div>
+            <div class="calendar-day available">14.</div>
+            <div class="calendar-day available">15.</div>
+            <div class="calendar-day available">16.</div>
+          </div>
+          <div id="calendar">
+            <div class="calendar-day available">17.</div>
+            <div class="calendar-day available">18.</div>
+            <div class="calendar-day occupied">19.</div>
+            <div class="calendar-day available">20.</div>
+            <div class="calendar-day available">21.</div>
+            <div class="calendar-day available">22.</div>
+            <div class="calendar-day occupied">23.</div>
+          </div>
+          <div id="calendar">
+            <div class="calendar-day available">24.</div>
+            <div class="calendar-day available">25.</div>
+            <div class="calendar-day available">26.</div>
+            <div class="calendar-day available">27.</div>
+            <div class="calendar-day available">28</div>
+            <div class="calendar-day available">29.</div>
+            <div class="calendar-day available">30.</div>
+          </div>
+      </div>
+
+  <div class="freedates">
+    <p>Ledige tider</p>
+</div>
+<div class="occupieddates">
+    <p>Optaget tider</p>
+</div>
+<div class="occupieddatesblock"></div>
+<div class="freedatesblock"></div>
+
+  <script src="kalender.js"></script>
+</body>
+</html>

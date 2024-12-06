@@ -398,6 +398,44 @@ body {
 }
 
 #filter-system {
-    color: #fff; /* Hvid tekstfarve */
-    text-align: center; /* Centrerer tekst */
+    color: #fff; 
+    text-align: center;
 }
+
+
+
+/*Her starter kaldender CSS*/
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .calendar-day {
+    height: 55px;
+    border: 1px solid white;
+    text-align: left;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .calendar-day.disabled {
+    background-color: #E3F2F1;
+    color: #00454E;
+    cursor: not-allowed;
+  }
+  
+  .calendar-day.occupied {
+    background-color: #E3F2F1;
+    color: #00454E;
+  }
+  
+  .calendar-day.available {
+    background-color: #00454E;
+    color: #E3F2F1;
+  }
+  
+  .calendar-day.selected {
+    border: 2px solid yellow;
+  }
+
