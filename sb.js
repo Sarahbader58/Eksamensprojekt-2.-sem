@@ -27,15 +27,9 @@ submitButton.addEventListener('click', () => {
     const selectedMachine = document.querySelector('.filter-option.active[data-type="maskiner"]');
 
     if (!selectedSupervisor || !selectedMachine) {
-        // Hvis enten supervisor eller maskine ikke er valgt
-        alert('Du skal vælge én supervisor og én maskine for at fortsætte!');
-    } else {
-        // Vis en "kalender" (placeholder: indsæt din kalender-visning her)
-        document.body.innerHTML += `
-            <div id="calendar">
-                <h2>Tilgængelige tider</h2>
-                <img src="Billeder/kalender1.png" alt="Kalender">
-            </div>
-        `;
-    }
-});
+        alert("Du skal vælge både en supervisor og en maskine!");
+      } else {
+        // Naviger til kalender-siden
+        window.location.href ="kalender.html";
+      }
+    });
