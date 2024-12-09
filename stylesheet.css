@@ -123,7 +123,7 @@ button {
     position: absolute;
     font-weight: 700;
     left: 50%;
-    top: 415px;
+    top: 440px;
     background: fixed;
     pointer-events: none;
     transform: translate(-50%, -50%);
