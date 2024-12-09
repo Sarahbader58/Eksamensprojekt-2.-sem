@@ -22,19 +22,26 @@ button {
     height: 31px;
 }
 
+.container.logo {
+  position: absolute;
+
+}
 
 .logo {
-    width: 50px;
-    height: 39.38px;
     left: 13px;
     top: 21px;
     position: absolute;
+    height: auto;
+}
+
+.container.profile {
+  position: absolute;
 }
 
 .profile {
     width: 40px;
     height: 40px;
-    left: 331px;
+    right: 13px;
     top: 21px;
     position: absolute;
 }
@@ -53,6 +60,11 @@ button {
     left: 13px;
     top: 100px;
     position: absolute;
+}
+
+.container.login {
+  position: relative;
+  align-self: center;
 }
 
 .login {
