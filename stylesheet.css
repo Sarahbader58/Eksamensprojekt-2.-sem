@@ -453,7 +453,6 @@ body {
     border: 2px solid yellow;
   }
 
-<<<<<<< HEAD
 .weekdays, .calendar-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -543,5 +542,3 @@ body {
 #book-button:hover {
   background-color: #008c9f;
 }
-=======
->>>>>>> 18c5cecb5f8ab3a86594e717da2087f4af85875e
