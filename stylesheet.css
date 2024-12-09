@@ -62,21 +62,17 @@ button {
     position: absolute;
 }
 
-.container.login {
-  position: relative;
-  align-self: center;
-}
-
 .login {
     font-size: 24px;
     font-family: futura;
     font-weight: 700;
     width: 104px;
-    height: 32px;
-    left: 144px;
-    top: 225px;
+    height: auto;
+    left: 50%;
+    top: 40%;
     position: absolute;
     color: #E4F3F1;
+    transform: translate(-50%, -50%);
 }
 
 .username {
@@ -85,10 +81,11 @@ button {
     font-weight: 400;
     width: 247px;
     height: 24px;
-    left: 63px;
+    left: 50%;
     top: 318px;
     position: absolute;
     background: #00454E;
+    transform: translate(-50%, -50%);
 }
 
 .password {
@@ -97,10 +94,11 @@ button {
     font-weight: 400;
     width: 247px;
     height: 24px;
-    left: 63px;
+    left: 50%;
     top: 370px;
     position: absolute;
     background: #00454E;
+    transform: translate(-50%, -50%);
 }
 
 .submitBtn {
@@ -111,10 +109,11 @@ button {
     padding: 0px;
     width: 80px;
     height: 40px;
-    left: 155px;
+    left: 50%;
     top: 450px;
     position: absolute;
     color: #E4F3F1;
+    transform: translate(-50%, -50%);
 }
 
 .error-msg {
@@ -123,10 +122,11 @@ button {
     font-size: 16px;
     position: absolute;
     font-weight: 700;
-    left: 63px;
+    left: 50%;
     top: 415px;
     background: fixed;
     pointer-events: none;
+    transform: translate(-50%, -50%);
 }
 
 .filters {
@@ -453,6 +453,7 @@ body {
     border: 2px solid yellow;
   }
 
+<<<<<<< HEAD
 .weekdays, .calendar-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -542,3 +543,5 @@ body {
 #book-button:hover {
   background-color: #008c9f;
 }
+=======
+>>>>>>> 18c5cecb5f8ab3a86594e717da2087f4af85875e
