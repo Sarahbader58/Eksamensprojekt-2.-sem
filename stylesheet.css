@@ -439,3 +439,54 @@ body {
     border: 2px solid yellow;
   }
 
+  
+  .kalenderoccupieddates {
+    color: #E4F3F1;
+    font-size: 16px;
+    font-family: Futura;
+    font-weight: 700;
+    color: #E4F3F1;
+    font-size: 14px;
+    font-family: Futura;
+    font-weight: 700;
+    width: 117px;
+    height: 24px;
+    left: 233px;
+    top: 640px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.kalenderoccupieddatesblock {
+    width: 24px;
+    height: 24px;
+    left: 199px;
+    top: 650px;
+    position: absolute;
+    background-color: #E4F3F1;
+    margin-top: 10px;
+}
+
+.kalenderfreedatesblock {
+    width: 24px;
+    height: 24px;
+    left: 42px;
+    top: 650px;
+    position: absolute;
+    background-color: #00454E;
+    border: 1px #E4F3F1 solid;
+    margin-top: 10px;
+}
+
+.kalenderfreedates {
+  color: #E4F3F1;
+  font-size: 14px;
+  font-family: Futura;
+  font-weight: 700;
+  width: 91px;
+  height: 24px;
+  left: 75px;
+  top: 640px;
+  position: absolute;
+  margin-top: 10px;
+}
