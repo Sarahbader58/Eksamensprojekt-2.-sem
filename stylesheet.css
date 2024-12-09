@@ -56,7 +56,6 @@ button {
 .login {
     font-size: 24px;
     font-family: futura;
-    font-weight: 700;
     width: 104px;
     height: auto;
     left: 50%;
@@ -69,7 +68,6 @@ button {
 .username {
     font-size: 15px;
     font-family: Futura;
-    font-weight: 400;
     width: 247px;
     height: 24px;
     left: 50%;
@@ -82,7 +80,6 @@ button {
 .password {
     font-size: 15px;
     font-family: Futura;
-    font-weight: 400;
     width: 247px;
     height: 24px;
     left: 50%;
@@ -95,7 +92,6 @@ button {
 .submitBtn {
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
     line-height: 0px;
     padding: 0px;
     width: 80px;
@@ -112,7 +108,6 @@ button {
     font-family: futura;
     font-size: 16px;
     position: absolute;
-    font-weight: 700;
     left: 50%;
     top: 440px;
     background: fixed;
@@ -124,7 +119,6 @@ button {
     color: #E4F3F1;
     font-size: 14px;
     font-family: Futura;
-    font-weight: 700;
     width: 91px;
     height: 24px;
     left: 75px;
@@ -141,7 +135,6 @@ button {
     color: #E4F3F1;
     font-size: 14px;
     font-family: Futura;
-    font-weight: 700;
     width: 117px;
     height: 24px;
     left: 233px;
@@ -194,7 +187,6 @@ button {
     color: #E4F3F1;
     font-size: 16px;
     font-family: futura;
-    font-weight: 700;
 }
 
 
@@ -207,9 +199,6 @@ button {
     color: #E4F3F1;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
-    line-height: 0px;
-    padding: 0px;
 }
 
 .profiletime {
@@ -221,9 +210,6 @@ button {
     color: #E4F3F1;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
-    line-height: 0px;
-    padding: 0px;
 }
 
 .canceldate {
@@ -235,10 +221,7 @@ button {
     color: #00454E;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
     background-color: #E4F3F1;
-    line-height: 0px;
-    padding: 0px;
 }
 
 .olddates {
@@ -250,7 +233,6 @@ button {
     color: #E4F3F1;
     font-size: 16px;
     font-family: futura;
-    font-weight: 700;
 }
 
 .canceleddates {
@@ -262,22 +244,19 @@ button {
     color: #E4F3F1;
     font-size: 16px;
     font-family: futura;
-    font-weight: 700;
 }
 
 .logout {
     width: 80px;
     height: 40px;
-    left: 155px;
+    left: 50%;
     top: 580px;
     position: absolute;
     color: #00454E;
     font-size: 16px;
     font-family: futura;
-    font-weight: 700;
     background-color: #E4F3F1;
-    line-height: 0px;
-    padding: 0px;
+    transform: translate(-50%, -50%);
 }
 
 /* her starter filtrerings CSS */

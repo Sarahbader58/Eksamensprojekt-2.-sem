@@ -44,27 +44,26 @@ button {
 .book {
     width: 80px;
     height: 40px;
-    left: 155px;
-    top: 550px;
+    left: 50%;
+    top: 570px;
     position: absolute;
     font-family: futura;
     font-size: 16px;
-    font-weight: 700;
     line-height: 0px;
     padding: 0px;
     color: #00454E;
     padding: auto;
     background-color: #FAE353;
+    transform: translate(-50%, -50%);
 }
 
 .filters {
     color: #E4F3F1;
     font-size: 24px;
     font-family: Futura;
-    font-weight: 700;
     width: 207px;
     height: 43px;
-    left: 13px;
+    left: 10%;
     top: 102px;
     position: absolute;
 }
@@ -73,176 +72,167 @@ button {
     color: #E4F3F1;
     font-size: 14px;
     font-family: Futura;
-    font-weight: 700;
     width: 91px;
     height: 24px;
-    left: 75px;
-    top: 600px;
+    left: 40%;
+    top: 610px;
     position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .occupieddates {
     color: #E4F3F1;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
     color: #E4F3F1;
     font-size: 14px;
     font-family: Futura;
-    font-weight: 700;
     width: 117px;
     height: 24px;
-    left: 233px;
-    top: 600px;
+    left: 75%;
+    top: 610px;
     position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .occupieddatesblock {
     width: 24px;
     height: 24px;
-    left: 199px;
-    top: 610px;
+    left: 57%;
+    top: 620px;
     position: absolute;
     background-color: #E4F3F1;
+    transform: translate(-50%, -50%);
 }
 
 .freedatesblock {
     width: 24px;
     height: 24px;
-    left: 42px;
-    top: 610px;
+    left: 25%;
+    top: 620px;
     position: absolute;
     background-color: #00454E;
     border: 1px #E4F3F1 solid;
-
+    transform: translate(-50%, -50%);
 }
 
 .eight {
     width: 80px;
     height: 50px;
-    left: 60px;
+    left: 25%;
     top: 360px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
-    text-align: left;
     border: 1px #E4F3F1 solid;
+    transform: translate(-50%, -50%);
 }
 
 .nine {
     width: 80px;
-    height: 40px;
-    left: 155px;
+    height: 50px;
+    left: 50%;
     top: 360px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
-    line-height: 0px;
-    padding: 0px;
+    border: 1px #E4F3F1 solid;
+    transform: translate(-50%, -50%);
 }
 
 .ten {
     width: 80px;
-    height: 40px;
-    left: 250px;
+    height: 50px;
+    left: 75%;
     top: 360px;
     position: absolute;
     color: #00454E;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
     background-color: #E4F3F1;
-    line-height: 0px;
-    padding: 0px;
+    border: 1px #E4F3F1 solid;
+    transform: translate(-50%, -50%);
 }
 
 .eleven {
     width: 80px;
-    height: 40px;
-    left: 60px;
-    top: 420px;
+    height: 50px;
+    left: 25%;
+    top: 430px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
-    line-height: 0px;
-    padding: 0px;
+    border: 1px #E4F3F1 solid;
+    transform: translate(-50%, -50%);
 }
 
 .twelve {
     width: 80px;
-    height: 40px;
-    left: 155px;
-    top: 420px;
+    height: 50px;
+    left: 50%;
+    top: 430px;
     position: absolute;
     color: #00454E;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
     background-color: #E4F3F1;
-    line-height: 0px;
-    padding: 0px;
+    border: 1px #E4F3F1 solid;
+    transform: translate(-50%, -50%);
 }
 
 .thirteen {
     width: 80px;
-    height: 40px;
-    left: 250px;
-    top: 420px;
+    height: 50px;
+    left: 75%;
+    top: 430px;
     position: absolute;
     color: #00454E;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
     background-color: #E4F3F1;
-    line-height: 0px;
-    padding: 0px;
+    border: 1px #E4F3F1 solid;
+    transform: translate(-50%, -50%);
 }
 
 .fourteen {
     width: 80px;
-    height: 40px;
-    left: 60px;
-    top: 480px;
+    height: 50px;
+    left: 25%;
+    top: 500px;
     position: absolute;
     color: #00454E;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
     background-color: #E4F3F1;
-    line-height: 0px;
-    padding: 0px;
+    border: 1px #E4F3F1 solid;
+    transform: translate(-50%, -50%);
 }
 
 .fifteen {
     width: 80px;
-    height: 40px;
-    left: 155px;
-    top: 480px;
+    height: 50px;
+    left: 50%;
+    top: 500px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
-    line-height: 0px;
-    padding: 0px;
+    border: 1px #E4F3F1 solid;
+    transform: translate(-50%, -50%);
 }
 
 .sixteen {
     width: 80px;
-    height: 40px;
-    left: 250px;
-    top: 480px;
+    height: 50px;
+    left: 75%;
+    top: 500px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
     font-family: Futura;
-    font-weight: 700;
-    line-height: 0px;
-    padding: 0px;
+    border: 1px #E4F3F1 solid;
+    transform: translate(-50%, -50%);
 }
