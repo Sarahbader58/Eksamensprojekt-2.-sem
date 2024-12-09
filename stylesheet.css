@@ -22,20 +22,11 @@ button {
     height: 31px;
 }
 
-.container.logo {
-  position: absolute;
-
-}
-
 .logo {
     left: 13px;
     top: 21px;
     position: absolute;
     height: auto;
-}
-
-.container.profile {
-  position: absolute;
 }
 
 .profile {
@@ -58,7 +49,7 @@ button {
     width: 30px;
     height: 30px;
     left: 13px;
-    top: 100px;
+    top: 170px;
     position: absolute;
 }
 
@@ -127,18 +118,6 @@ button {
     background: fixed;
     pointer-events: none;
     transform: translate(-50%, -50%);
-}
-
-.filters {
-    color: #E4F3F1;
-    font-size: 24px;
-    font-family: Futura;
-    font-weight: 700;
-    width: 207px;
-    height: 43px;
-    left: 13px;
-    top: 102px;
-    position: absolute;
 }
 
 .freedates {
