@@ -100,6 +100,9 @@ button {
     top: 450px;
     position: absolute;
     color: #E4F3F1;
+    background-color: #00454E;
+    border:#FAE353 solid;
+    border-radius: 10px;
     transform: translate(-50%, -50%);
 }
 
@@ -252,10 +255,12 @@ button {
     left: 50%;
     top: 580px;
     position: absolute;
-    color: #00454E;
+    color: #E4F3F1;
     font-size: 16px;
     font-family: futura;
-    background-color: #E4F3F1;
+    background-color: #00454E;
+    border:#FAE353 solid;
+    border-radius: 10px;
     transform: translate(-50%, -50%);
 }
 
