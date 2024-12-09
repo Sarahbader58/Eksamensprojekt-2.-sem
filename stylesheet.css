@@ -48,10 +48,10 @@ button {
 }
 
 .arrow {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     left: 13px;
-    top: 278px;
+    top: 100px;
     position: absolute;
 }
 
@@ -184,13 +184,13 @@ button {
 
 .profil {
     color: #E4F3F1;
-    font-size: 24px;
+    font-size: 25px;
     font-family: Futura;
     font-weight: 700;
-    width: 207px;
+    width: 210px;
     height: 43px;
     left: 52px;
-    top: 102px;
+    top: 170px;
     position: absolute;
 }
 
@@ -198,7 +198,7 @@ button {
     width: 247px;
     height: 24px;
     left: 52px;
-    top: 289px;
+    top: 230px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
@@ -210,8 +210,8 @@ button {
 .profiledate {
     width: 80px;
     height: 40px;
-    left: 60px;
-    top: 337px;
+    left: 53px;
+    top: 270px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
@@ -225,7 +225,7 @@ button {
     width: 80px;
     height: 40px;
     left: 155px;
-    top: 337px;
+    top: 270px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
@@ -238,8 +238,8 @@ button {
 .canceldate {
     width: 80px;
     height: 40px;
-    left: 250px;
-    top: 337px;
+    left: 255px;
+    top: 270px;
     position: absolute;
     color: #00454E;
     font-size: 16px;
@@ -254,7 +254,7 @@ button {
     width: 247px;
     height: 24px;
     left: 52px;
-    top: 402px;
+    top: 350px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
@@ -266,7 +266,7 @@ button {
     width: 247px;
     height: 24px;
     left: 52px;
-    top: 515px;
+    top: 450px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
@@ -278,7 +278,7 @@ button {
     width: 80px;
     height: 40px;
     left: 155px;
-    top: 620px;
+    top: 580px;
     position: absolute;
     color: #00454E;
     font-size: 16px;
