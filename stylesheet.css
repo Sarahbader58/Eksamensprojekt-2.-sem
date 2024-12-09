@@ -384,7 +384,7 @@ body {
   }
 
 .filter-title {
-    font-family: 'Arial', sans-serif;
+    font-family: futura;
     font-size: 18px;            
     font-weight: bold;             
     color: #fff;                  
@@ -420,11 +420,13 @@ body {
 #calendar {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    justify-content: center;
   }
   
   .calendar-day {
-    height: 55px;
-    border: 1px solid white;
+    height: 50px;
+    border: 1px solid #E3F2F1;
     text-align: left;
     cursor: pointer;
     margin-left: 10px;
@@ -451,3 +453,92 @@ body {
     border: 2px solid yellow;
   }
 
+.weekdays, .calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.weekdays div {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.kalenderoccupieddates {
+    color: #E4F3F1;
+    font-size: 14px;
+    font-family: Futura;
+    font-weight: 700;
+    width: 117px;
+    height: 24px;
+    left: 233px;
+    top: 690px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.kalenderoccupieddatesblock {
+    width: 24px;
+    height: 24px;
+    left: 199px;
+    top: 700px;
+    position: absolute;
+    background-color: #E4F3F1;
+    margin-top: 10px;
+}
+
+.kalenderfreedates {
+  color: #E4F3F1;
+  font-size: 14px;
+  font-family: Futura;
+  font-weight: 700;
+  width: 91px;
+  height: 24px;
+  left: 75px;
+  top: 690px;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.kalenderfreedatesblock {
+    width: 24px;
+    height: 24px;
+    left: 42px;
+    top: 700px;
+    position: absolute;
+    background-color: #00454E;
+    border: 1px #E4F3F1 solid;
+    margin-top: 10px;
+}
+
+.calendar-day.selected {
+  border: 2px solid yellow;
+}
+
+#book-button-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin-top: 20px; 
+  width: 100%; 
+}
+
+#book-button {
+  background-color: #006d7e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80px;
+  height: 50px;
+  font-size: 15px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+#book-button:hover {
+  background-color: #008c9f;
+}

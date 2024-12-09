@@ -15,12 +15,21 @@
         <div class="container.profile">
             <img src="Billeder/profile-site.png" alt="profil" class="profile" onclick="location.href='profile.html';"/>
         </div>
+        <img src="Billeder/arrow-back.png" alt="tilbage pil" class="arrow" onclick="location.href='dates.html';">
     </header>
     </header>
     <div id="calendar-container">
         <h1>Tilgængelige tider</h1>
         
-        <p>Man Tir Ons Tor Fre Lør Søn</p>
+        <div class="weekdays">
+          <div>Man</div>
+          <div>Tir</div>
+          <div>Ons</div>
+          <div>Tor</div>
+          <div>Fre</div>
+          <div>Lør</div>
+          <div>Søn</div>
+        </div>
         
         <div id="calendar">
           <div class="calendar-day available">3.</div>
@@ -58,7 +67,12 @@
             <div class="calendar-day available">29.</div>
             <div class="calendar-day available">30.</div>
           </div>
-      </div>
+
+          <div id="book-button-container">
+            <button id="book-button" style="display: none;">Book</button>
+          </div>
+               
+        </div>
 
   <div class="kalenderfreedates">
     <p>Ledige tider</p>
@@ -70,5 +84,6 @@
 <div class="kalenderfreedatesblock"></div>
 
   <script src="sb.js"></script>
+  <script src="kalender.js"></script>
 </body>
 </html>
