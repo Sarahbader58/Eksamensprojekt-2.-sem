@@ -51,21 +51,12 @@ button {
     font-size: 16px;
     line-height: 0px;
     padding: 0px;
-    color: #00454E;
-    padding: auto;
-    background-color: #FAE353;
-    transform: translate(-50%, -50%);
-}
-
-.filters {
     color: #E4F3F1;
-    font-size: 24px;
-    font-family: Futura;
-    width: 207px;
-    height: 43px;
-    left: 10%;
-    top: 102px;
-    position: absolute;
+    padding: auto;
+    background-color: #00454E;
+    transform: translate(-50%, -50%);
+    border: #FAE353 solid;
+    border-radius: 10px;
 }
 
 .freedates {
