@@ -66,7 +66,7 @@ button {
     width: 91px;
     height: 24px;
     left: 40%;
-    top: 550px;
+    top: 580px;
     position: absolute;
     transform: translate(-50%, -50%);
 }
@@ -81,7 +81,7 @@ button {
     width: 117px;
     height: 24px;
     left: 75%;
-    top: 550px;
+    top: 580px;
     position: absolute;
     transform: translate(-50%, -50%);
 }
@@ -90,7 +90,7 @@ button {
     width: 24px;
     height: 24px;
     left: 57%;
-    top: 560px;
+    top: 590px;
     position: absolute;
     background-color: #E4F3F1;
     transform: translate(-50%, -50%);
@@ -100,7 +100,7 @@ button {
     width: 24px;
     height: 24px;
     left: 25%;
-    top: 560px;
+    top: 590px;
     position: absolute;
     background-color: #00454E;
     border: 1px #E4F3F1 solid;
@@ -156,7 +156,7 @@ button {
     color: #E4F3F1;
     font-size: 16px;
     font-family: Futura;
-    border: 1px #E4F3F1 solid;
+    border: 1px #FAE353 solid;
     transform: translate(-50%, -50%);
 }
 
