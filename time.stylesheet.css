@@ -1,6 +1,6 @@
 * {
     background-color: #00454E;
-    height: 80px;
+    height: 50px;
 }
 h1 {
     font-size: 25px;
@@ -34,10 +34,10 @@ button {
 }
 
 .arrow {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     left: 13px;
-    top: 200px;
+    top: 170px;
     position: absolute;
 }
 
@@ -45,7 +45,7 @@ button {
     width: 80px;
     height: 40px;
     left: 50%;
-    top: 510px;
+    top: 460px;
     position: absolute;
     font-family: futura;
     font-size: 16px;
@@ -111,7 +111,7 @@ button {
     width: 80px;
     height: 50px;
     left: 25%;
-    top: 300px;
+    top: 250px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
@@ -124,7 +124,7 @@ button {
     width: 80px;
     height: 50px;
     left: 50%;
-    top: 300px;
+    top: 250px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
@@ -137,7 +137,7 @@ button {
     width: 80px;
     height: 50px;
     left: 75%;
-    top: 300px;
+    top: 250px;
     position: absolute;
     color: #00454E;
     font-size: 16px;
@@ -151,7 +151,7 @@ button {
     width: 80px;
     height: 50px;
     left: 25%;
-    top: 370px;
+    top: 320px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
@@ -164,7 +164,7 @@ button {
     width: 80px;
     height: 50px;
     left: 50%;
-    top: 370px;
+    top: 320px;
     position: absolute;
     color: #00454E;
     font-size: 16px;
@@ -178,7 +178,7 @@ button {
     width: 80px;
     height: 50px;
     left: 75%;
-    top: 370px;
+    top: 320px;
     position: absolute;
     color: #00454E;
     font-size: 16px;
@@ -192,7 +192,7 @@ button {
     width: 80px;
     height: 50px;
     left: 25%;
-    top: 440px;
+    top: 390px;
     position: absolute;
     color: #00454E;
     font-size: 16px;
@@ -206,7 +206,7 @@ button {
     width: 80px;
     height: 50px;
     left: 50%;
-    top: 440px;
+    top: 390px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
@@ -219,7 +219,7 @@ button {
     width: 80px;
     height: 50px;
     left: 75%;
-    top: 440px;
+    top: 390px;
     position: absolute;
     color: #E4F3F1;
     font-size: 16px;
