@@ -56,11 +56,11 @@ button {
 .information {
   font-size: 15px;
   font-family: futura;
-  width: 134px;
-  left: 50%;
+  width: 180px;
+  left: 40%;
   margin-top: 400px;
   position: absolute;
-  color: #E4F3F1;
+  color: #e4f3f1;
   transform: translate(-50%, -50%);
 }
 
