@@ -21,7 +21,7 @@ submitBtn.onclick = function() {
     }
 
     if (isValid) {
-        document.location.href="dates.html"
+        document.location.href="filtrering.html"
     } else {
         errorMsg.style.display = "block";
     }
