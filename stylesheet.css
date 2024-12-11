@@ -23,8 +23,8 @@ button {
 }
 
 .logo {
-    left: 13px;
-    top: 21px;
+    left: 5%;
+    top: 5%;
     position: absolute;
     height: auto;
 }
@@ -32,8 +32,8 @@ button {
 .profile {
     width: 40px;
     height: 40px;
-    right: 13px;
-    top: 21px;
+    right: 5%;
+    top: 5%;
     position: absolute;
 }
 
