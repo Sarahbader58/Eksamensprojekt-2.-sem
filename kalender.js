@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     bookButton.addEventListener("click", () => {
       if (selectedDate) {
         // Naviger til profilen med den valgte tid
-        window.location.href = `/time.html?tid=${encodeURIComponent(selectedDate)}`;
+        window.location.href ="time.html";
       }
     });
   });
