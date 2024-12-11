@@ -24,5 +24,4 @@ submitBtn.onclick = function() {
         document.location.href="filtrering.html"
     } else {
         errorMsg.style.display = "block";
-    }
-}
+  
